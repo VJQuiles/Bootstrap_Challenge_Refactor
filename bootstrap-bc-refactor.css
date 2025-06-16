@@ -1,0 +1,18 @@
+html,
+body {
+    background: #F4D04E;
+}
+
+.card {
+    box-shadow: 8px 8px 0px 0px #000;
+    transition: box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 12px 12px 0px 0px #000;
+}
+
+.card:hover h4 {
+    color: #7f27c1;
+}
